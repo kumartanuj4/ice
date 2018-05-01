@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { OrderComponent } from './order/order.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { ContactusComponent } from './contactus/contactus.component';
     HomeComponent,
     OrderComponent,
     PricingComponent,
-    ContactusComponent
+    ContactusComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule
